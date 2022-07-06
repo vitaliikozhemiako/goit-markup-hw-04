@@ -544,6 +544,10 @@ address {
 }
 
 /* join */
+.footer-contain {
+    display: flex;
+    align-items: baseline;
+}
 
 .join {
     margin-left: 70px
