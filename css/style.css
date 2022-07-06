@@ -525,6 +525,11 @@ address {
     transition: border 250ms var(--timing-function), color 250ms var(--timing-function);
 }
 
+.clients-link:hover,
+:focus {
+    background-color: var(--accent-color);
+}
+
 .clients-item:last-child {
     margin-right: 0px;
 }
