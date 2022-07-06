@@ -538,7 +538,33 @@ address {
     margin-right: auto;
 }
 
-.page-header {
+/* join */
+
+.join {
+    margin-left: 70px
+}
+
+.join-title {
+    margin-bottom: 20px;
+    font-size: inherit;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--primery-white-color);
+}
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 
 }
 
+.footer-social-icon {
+    width: 44px;
+    height: 44px;
+}
+
+.footer-social-link {
+    color: var(--secondary-bg-colour);
+    background-color: var(--primery-text-color);
+}
