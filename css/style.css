@@ -201,7 +201,7 @@ margin-left: 93px;
     justify-content: space-between;
 }
 
-.feature-item::before {
+.feature-item {
     width: calc((100% - 90px) / 4);
 }
 
@@ -526,7 +526,7 @@ address {
 }
 
 .clients-link:hover,
-:focus {
+.clients-link:focus {
     background-color: var(--accent-color);
 }
 
