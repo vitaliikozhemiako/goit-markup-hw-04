@@ -574,6 +574,16 @@ address {
 }
 
 .footer-social-link {
-    color: var(--secondary-bg-colour);
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    color: var(--social-icon-color);
+    border-radius: 50%;
+    transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function);
+}
+
+.footer-contain .footer-social-link {
+    color: var(--primery-white-colour);
     background-color: var(--primery-text-color);
 }
