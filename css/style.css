@@ -150,7 +150,10 @@ margin-left: 93px;
 
 
 .contact-link {
-    color: #757575
+    color: inherit;
+    align-items: center;
+    display: flex;
+    gap: 10px;
 }
 
 .contact-link:hover, 
