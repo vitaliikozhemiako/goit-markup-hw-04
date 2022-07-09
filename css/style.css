@@ -3,8 +3,8 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --primery-white-color: #ffffff;
-    --secondary-bg-colour: #F5F4FA;
-    --social-icon-colour: #AFB1B8;
+    --secondary-bg-color: #F5F4FA;
+    --social-icon-color: #AFB1B8;
 }
 
 html {
@@ -214,7 +214,7 @@ margin-left: 93px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--secondary-bg-colour);
+    background-color: var(--secondary-bg-color);
     border-radius: 4px;
 }
 
@@ -275,7 +275,7 @@ margin-left: 93px;
 
 /* Team */
 .team {
-    background-color: var(--secondary-bg-colour);
+    background-color: var(--secondary-bg-color);
 }
 
 .team-section {
@@ -581,6 +581,6 @@ address {
 }
 
 .footer-contain .footer-social-link {
-    color: var(--primery-white-colour);
+    color: var(--primery-white-color);
     background-color: var(--primery-text-color);
 }
