@@ -506,14 +506,8 @@ address {
 }
 
 .clients-item {
-    margin-right: 30px;
-    display: inline-block;
     width: 170px;
     height: 92px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    background-position: center;
-    ;
 }
 
 .clients-link {
