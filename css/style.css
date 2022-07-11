@@ -576,6 +576,7 @@ address {
     height: 100%;
     padding: 12px;
     color: var(--social-icon-color);
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function);
 }
