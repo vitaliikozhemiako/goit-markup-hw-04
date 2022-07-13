@@ -153,7 +153,7 @@ margin-left: 93px;
 .contact-link {
     color: inherit;
     align-items: center;
-    display: flex;
+    display: inline-flex;
     gap: 10px;
 }
 
@@ -304,7 +304,6 @@ margin-left: 93px;
 
 .text-wrapper {
     padding-top: 30px;
-    padding-bottom: 30px;
 }
 
 .team-text {
@@ -318,6 +317,7 @@ margin-left: 93px;
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin: 16px 30px 30px 30px;
 }
 
 .team-social-icon {
@@ -426,7 +426,8 @@ address {
 .button-filter:hover,
 .button-filter:focus {
     background-color: var(--accent-color);
-    color: var(--primery-white-color)
+    color: var(--primery-white-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-filter {
@@ -460,6 +461,11 @@ address {
     margin-right: 30px;
     margin-bottom: 30px;
     border: 1px solid #EEEEEE;
+}
+
+.portfolio-item:hover,
+.portfolio-item:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-item:nth-child(3n) {
